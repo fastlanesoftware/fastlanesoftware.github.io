@@ -24,6 +24,7 @@
         <!--CSS Carousel-->        
         <link rel="stylesheet" href="./css/carousel.css">
         
+
         <!-- Timeline -->
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <style>
@@ -162,7 +163,6 @@
             }
             
             </style>
-
     </head>
 <body>
     <header id="header" class="header header-box-shadow-on-scroll header-abs-top header-bg-transparent header-show-hide"
@@ -276,7 +276,7 @@
 </div>
 <!-- End Search -->
 
-<div class="header-section">
+<div class="header-section" style="background-color:white;">
 <!-- Topbar -->
 <div class="container header-hide-content pt-2">
   <div class="d-flex align-items-center">
@@ -363,7 +363,7 @@
 
             <!-- Reporting - Submenu -->
             <div id="blogSubMenu" class="hs-sub-menu dropdown-menu" aria-labelledby="blogMegaMenu" style="min-width: 230px;">
-              <a class="dropdown-item " href="./reporting.html">Monthly Reporting</a>
+              <a class="dropdown-item " href="./blog-journal.html">Monthly Reporting</a>
               <a class="dropdown-item " href="./blog-metro.html">How it Works</a>
               <a class="dropdown-item " href="./blog-newsroom.html">The 4 Major Sections</a>
               <a class="dropdown-item " href="./blog-profile.html">Features & Capabilities</a>
@@ -407,105 +407,107 @@
 
 <!-- ========== MAIN CONTENT ========== -->
 <main id="content" role="main">
-    <!-- Hero Section -->
-    <div class="d-lg-flex position-relative">
-      <div class="container d-lg-flex align-items-lg-center space-top-2 space-lg-0 min-vh-lg-100">
-        
-        <!-- Content -->
-        <div class="w-md-100">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="mb-5 mt-11">
-                <h1 class="display-4 mb-3">
-                  Simplify the <br>
-
-                  <span class="text-primary text-highlight-warning">
-                    <span class="js-text-animation"
-                          data-hs-typed-options='{
-                            "strings": ["complicated."],
-                            "typeSpeed": 90,
-                            "loop": true,
-                            "backSpeed": 30,
-                            "backDelay": 2500
-                          }'></span>
-                  </span>
-                </h1>
-              </div>
-
+    <!-- Monthly Reporting -->
+        <div class="bg-light overflow-hidden">
+          <div class="container-fluid space-2 space-lg-1 px-lg-5">
+            <!-- Title -->
+            <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+             <h2 style="padding-top:150px;padding-bottom:50px">Monthly Reporting</h2>
+             <p class="text-dark">Billview is a monthly recurring, comprehensive online telecommunication asset management and bill reporting service that enables large organisations to manage all aspects of their telecommunications usage and expenditure - easily, efficiently and effectively.</p>
+             <p class="text-dark">BillView telecommunication reporting and expense management system provides multi-carrier integrated billing information in a single source web based facility. Carrier bills are effectively recompiled into a personalised, interactive and customer specific format. </p>
+             <p class="text-dark">All existing carriers can be incorporated into our reporting systems, including Optus, Aapt, Amcom, Vodfone, Pivotel, Three, GlobalStar, Nexium and others. Telstra being the dominant Australian carrier however, attracts particular emphasis.</p>
+             <p class="text-dark">BillView combines complex information processing with web based presentation to deliver an intuitive, flexible and accessible tool for inventory management, analysis and reporting of telecommunication services.</p>
             </div>
+             <!-- End Title -->
           </div>
-        </div>
-        <!-- End Content -->
+        </div>  
+    <!-- Monthly Reporting -->
 
-        <!-- SVG Shape -->
-        <figure class="col-lg-7 col-xl-6 d-none d-lg-block position-absolute top-0 right-0 pr-0 ie-main-hero" style="margin-top: 6.75rem;right:220px">
-          <img src="./img/home.png" width="1100" alt="Home">    
-        </figure>
-        <!-- End SVG Shape -->
-
-      </div>
-    </div>
-    <!-- End Hero Section -->
-
-    <!-- Articles Section -->
-    <div class="container space-2 space-top-xl-3 space-bottom-lg-3">
+    <!-- How it Works -->
+    <div class="container space-2 space-top-xl-2 space-bottom-lg-2">
       <!-- Title -->
       <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-        <h2>Telecommunication Expense Management & Bill Reporting Service</h2>
+        <h2 style="padding-bottom:20px">How it Works</h2>
+      </div>
+      <img src="./img/flowchart2.png" alt="How it Works" style="display:block;margin-left:auto;margin-right:auto;width:90%">
+      <!-- End Title -->
+    </div>
+    <!-- How it Works -->
+
+  
+    <!-- The 4 Major Sections -->
+  <div class="bg-light">
+    <div class="container space-2 space-top-xl-2 space-bottom-lg-2">
+      <!-- Title -->
+      <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+        <h2>The 4 Major Sections</h2>
       </div>
       <!-- End Title -->
 
       <div class="row mx-n2 mx-lg-n3">
-        <div class="col-sm-6 col-lg-3 px-2 px-lg-3 mb-3 mb-lg-0" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-sm-6 col-lg-6 px-2 px-lg-3 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay="150">
           <!-- Card -->
           <a class="card text-center h-100 transition-3d-hover">
-            <img src="./img/reporting.svg" class="mx-auto d-block" style="width:40%" alt="Reporting">
             <div class="card-body">
               <div class="mb-5">
-                <h3 class="text-dark" style="padding-bottom:15px">Reporting</h3>
-                <p class="text-dark">Billview is a comprehensive online telecommunication asset management and bill reporting service that enables organisations to manage all aspects of their telecoms inventory, usage and expenditure.</p>
+                <h3 style="padding-bottom:15px;color:rgb(0,154,215)">Inventory Management</h3>
+                <ol style="text-align:left">
+                  <li class="text-dark">Record your organisations services within a 3 or 4 tier hierarchy.</li><br>
+                  <li class="text-dark">Create, edit, rearrange the costcentre and service information easily through drag and drop mouse clicks.</li><br>
+                  <li class="text-dark">Intuitive and flexible filtering and search capability.</li><br>
+                  <li class="text-dark">Recorded tracking of chnages for simple oversight and roll back capability.</li>
+                </ol>
               </div>
             </div>
           </a>
           <!-- End Card -->
         </div>
 
-        <div class="col-sm-6 col-lg-3 px-2 px-lg-3 mb-3 mb-lg-0" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-sm-6 col-lg-6 px-2 px-lg-3 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay="150">
           <!-- Card -->
           <a class="card text-center h-100 transition-3d-hover">
-            <img src="./img/analysis.svg" class="mx-auto d-block" style="width:40%" alt="Analysis">
             <div class="card-body">
               <div class="mb-5">
-                <h3 class="text-dark" style="padding-bottom:15px">Analysis</h3>
-                <p class="text-dark">We offer a range of analytic services to assist in evaluating, understanding and benchmarking your organisations telecommunications costs and services.</p>
+                <h3 style="padding-bottom:15px;color:rgb(0,154,215)">User Management</h3>
+                <ol style="text-align:left">
+                  <li class="text-dark">Create and manage unlimited number of user access and privilege rights to your organisations custom BillView website.</li><br>
+                  <li class="text-dark">Multi tier access levels from 'Administrator' to 'Costcentre Manager' to singer service 'User'.</li><br>
+                  <li class="text-dark">Control privileges such as creating, editing and viewing for each persons given permission to log in. They can have full editing control, partial control or viewing access only.</li>
+                </ol>
               </div>
             </div>
           </a>
           <!-- End Card -->
         </div>
 
-        <div class="col-sm-6 col-lg-3 px-2 px-lg-3 mb-3 mb-lg-0" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-sm-6 col-lg-6 px-2 px-lg-3 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay="150">
           <!-- Card -->
           <a class="card text-center h-100 transition-3d-hover">
-            <img src="./img/evaluation&auditing.svg" class="mx-auto d-block" style="width:40%" alt="Evaluation & Auditing">
             <div class="card-body">
               <div class="mb-5">
-                <h3 class="text-dark" style="padding-bottom:15px">Evaluation & Auditing</h3>
-                <p class="text-dark">Telecommunication billing is complicated. Every now and then it's worthwhile to have your accounts looked over by the professionals to ensure you're being charged what your contract states you should.</p>
+                <h3 style="padding-bottom:15px;color:rgb(0,154,215)">Reporting</h3>
+                <ol style="text-align:left">
+                  <li class="text-dark">Your carrier bills are collected electronically and consolidated into a browsable online report.</li><br>
+                  <li class="text-dark">Reports are filtered by the access level of each user. Administrators can see all reports, Tier Managers can only see their own costcentre, Users can only see their own services.</li><br>
+                  <li class="text-dark">Exception reports allow expensive calls, long held calls, unused services or other anomalous patterns to be identified.</li>
+                </ol>
               </div>
             </div>
           </a>
           <!-- End Card -->
         </div>
 
-        <div class="col-sm-6 col-lg-3 px-2 px-lg-3 mb-3 mb-lg-0" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-sm-6 col-lg-6 px-2 px-lg-3 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay="150">
           <!-- Card -->
           <a class="card text-center h-100 transition-3d-hover">
-            <img src="./img/expertise.svg" class="mx-auto d-block" style="width:40%" alt="Expertise">
             <div class="card-body">
               <div class="mb-5">
-                <h3 class="text-dark" style="padding-bottom:15px">Expertise</h3>
-                <p class="text-dark">With extensive experience and a dedication to telecommunication billing solutions, you will find no better partner to work with.</p>
+                <h3 style="padding-bottom:15px;color:rgb(0,154,215)">Email Distribution</h3>
+                <ol style="text-align:left">
+                  <li class="text-dark">Emails can be distributed containing personalised 'links' which open BillView automatically for each individual user.</li><br>
+                  <li class="text-dark">Managers are emailed summary reports on their cost centre and contained services each month.</li><br>
+                  <li class="text-dark">Users receive fully itemised reports for their own services each month.</li>
+                </ol>
               </div>
             </div>
           </a>
@@ -513,112 +515,188 @@
         </div>
       </div>
     </div>
-    <!-- End Articles Section -->
+  </div>
+    <!-- The 4 Major Sections -->
+  
+    <!-- Feautures and Capabilities -->
+    <div class="container space-2 space-top-xl-2 space-bottom-lg-2">
+      <!-- Title -->
+      <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+        <h2>Features & Capabilities</h2>
+      </div>
+      <!-- End Title -->
 
-    <!-- Onboarding Process -->
-    <div id="demoExamplesSection" class="overflow-hidden">
-      <div class="container-fluid space-2 space-lg-3 px-lg-5">
-        <!-- Title -->
-        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
-          <h2>Onboarding Process</h2>
+      <div class="row mx-n2 mx-lg-n3">
+        <div class="col-sm-6 col-lg-4 px-2 px-lg-3 mb-3 mb-lg-5" data-aos="fade-up" data-aos-delay="150">
+          <!-- Card -->
+          <a class="card text-center h-100 transition-3d-hover">
+            <img src="./img/charge_management.svg" class="mx-auto d-block" style="width:40%;padding-top:20px;" alt="Charge Management">
+            <div class="card-body">
+              <div class="mb-5">
+                <h3 class="text-dark" style="padding-bottom:15px">Charge Management</h3>
+                <button type="button" class="btn btn-outline-primary">Read More</button>
+              </div>
+            </div>
+          </a>
+          <!-- End Card -->
         </div>
-        
-        <body>
-            <div class="timeline">
-            <div class="timelinecontainer timelineleft" style="text-align:right">
-              <div class="timelinecontent">
-                <h2>01</h2>
-                <p>Identify and Configure Accounts</p>
+
+        <div class="col-sm-6 col-lg-4 px-2 px-lg-3 mb-3 mb-lg-5" data-aos="fade-up" data-aos-delay="150">
+          <!-- Card -->
+          <a class="card text-center h-100 transition-3d-hover">
+            <img src="./img/customised_reporting.svg" class="mx-auto d-block" style="width:40%;padding-top:20px" alt="Customised Reporting">
+            <div class="card-body">
+              <div class="mb-5">
+                <h3 class="text-dark" style="padding-bottom:15px">Customised Reporting</h3>
+                <button type="button" class="btn btn-outline-primary">Read More</button>
               </div>
             </div>
-            <div class="timelinecontainer timelineright">
-              <div class="timelinecontent">
-                <h2>02</h2>
-                <p>You Provide Your Cost Centre and Asset Information</p>
+          </a>
+          <!-- End Card -->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 px-2 px-lg-3 mb-3 mb-lg-5" data-aos="fade-up" data-aos-delay="150">
+          <!-- Card -->
+          <a class="card text-center h-100 transition-3d-hover">
+            <img src="./img/inventory_management.svg" class="mx-auto d-block" style="width:40%;padding-top:20px" alt="Inventory Management">
+            <div class="card-body">
+              <div class="mb-5">
+                <h3 class="text-dark" style="padding-bottom:15px">Inventory Management</h3>
+                <button type="button" class="btn btn-outline-primary">Read More</button>
               </div>
             </div>
-            <div class="timelinecontainer timelineleft" style="text-align:right">
-              <div class="timelinecontent">
-                <h2>03</h2>
-                <p>You Provide Financial and Management Reports</p>
+          </a>
+          <!-- End Card -->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 px-2 px-lg-3 mb-3 mb-lg-5" data-aos="fade-up" data-aos-delay="150">
+          <!-- Card -->
+          <a class="card text-center h-100 transition-3d-hover">
+            <img src="./img/report_generation.svg" class="mx-auto d-block" style="width:40%;padding-top:20px" alt="Report Generation">
+            <div class="card-body">
+              <div class="mb-5">
+                <h3 class="text-dark" style="padding-bottom:15px">Report Generation & Options</h3>
+                <button type="button" class="btn btn-outline-primary">Read More</button>
               </div>
             </div>
-            <div class="timelinecontainer timelineright">
-              <div class="timelinecontent">
-                <h2>04</h2>
-                <p>Your Data Arrives</p>
+          </a>
+          <!-- End Card -->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 px-2 px-lg-3 mb-3 mb-lg-5" data-aos="fade-up" data-aos-delay="150">
+          <!-- Card -->
+          <a class="card text-center h-100 transition-3d-hover">
+            <img src="./img/integration.svg" class="mx-auto d-block" style="width:40%;padding-top:20px" alt="Integration">
+            <div class="card-body">
+              <div class="mb-5">
+                <h3 class="text-dark" style="padding-bottom:15px">Integration</h3>
+                <button type="button" class="btn btn-outline-primary">Read More</button>
               </div>
             </div>
-            <div class="timelinecontainer timelineleft" style="text-align:right">
-              <div class="timelinecontent">
-                <h2>05</h2>
-                <p>Reports are Online</p>
+          </a>
+          <!-- End Card -->
+        </div>
+
+        <div class="col-sm-6 col-lg-4 px-2 px-lg-3 mb-3 mb-lg-5" data-aos="fade-up" data-aos-delay="150">
+          <!-- Card -->
+          <a class="card text-center h-100 transition-3d-hover">
+            <img src="./img/partner_fulfillment.svg" class="mx-auto d-block" style="width:40%;padding-top:20px" alt="Partner Fulfillment Functions">
+            <div class="card-body">
+              <div class="mb-5">
+                <h3 class="text-dark" style="padding-bottom:15px">Partner Fulfillment Functions</h3>
+                <button type="button" class="btn btn-outline-primary">Read More</button>
               </div>
+            </div>
+          </a>
+          <!-- End Card -->
+        </div>
+      </div>
+    </div>
+    <!-- End Feautures and Capabilities -->
+
+<!-- Benefits of Billview -->
+<div class="bg-light">
+  <div class="container space-2 space-top-xl-2 space-bottom-lg-2">
+    <!-- Title -->
+    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+      <h2>Benefits of Billview</h2>
+    </div>
+    <!-- End Title -->
+
+    <div class="row mx-n2 mx-lg-n3">
+      <div class="col-sm-6 col-lg-12 px-2 px-lg-3 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay="150">
+        <!-- Card -->
+        <a class="card text-center h-100 transition-3d-hover">
+          <div class="card-body">
+            <div class="mb-5">
+              <h3 style="padding-bottom:15px;color:rgb(0,154,215);text-align:left">Processing</h3>
+              <ol style="text-align:left">
+                <li class="text-dark">Allows for the amalgamation of telecommunication accounts, instead of tens or hundreds of accounts you manage a handful;</li><br>
+                <li class="text-dark">Enables the streamlining and automation of the account payment process, making staff more efficient;</li><br>
+                <li class="text-dark">Online reporting allows management by exception;</li>
+              </ol>
             </div>
           </div>
-          
-          </body>
-        <!-- End Title -->
-
-
-        <!-- Sticky Block End Point -->
-        <div id="stickyBlockEndPoint"></div>
+        </a>
+        <!-- End Card -->
       </div>
-    </div>
-    <!-- End Demo Examples Section -->
 
-    <!-- Channel Partners Section -->
-    <div class="bg-light rounded-lg mx-3 mx-md-11">
-      <div class="container space-1 space-md-2">
-        <div class="card bg-transparent shadow-none">
-          <div class="row">
-            <div class="col-lg-3 d-none d-lg-block">
-              <img class="img-fluid" src="./img/telstra-bus-partner-logo.png" alt="Telstra Partner" width="100%" height="100%" style="padding-top:30px">
-                <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll bg-light" data-options='{direction: "reverse"}' style="overflow: visible;">
-                  <div data-parallaxanimation='[{property: "transform", value:" translate3d(0,{{val}}rem,0)", initial:"4", mid:"0", final:"-4"}]'>
-
-                    <!-- SVG Shapes -->
-                    <figure class="max-w-15rem w-100 position-absolute bottom-0 left-0 z-index-n1">
-                      <div class="mb-n7 ml-n7">
-                      </div>
-                    </figure>
-                    <!-- End SVG Shapes -->
-                  </div>
-                </div>
-              </div>
-
-            <div class="col-lg-9">
-              <!-- Card Body -->
-              <div class="card-body h-100 rounded-lg p-0 p-md-4">
-                <div class="row">
-                  <div class="col-lg-8 mb-3 mb-lg-0">
-                    <div class="pr-lg-5">
-                      <h3 class="h3 font-weight-normal mb-4">We will work with your Telstra Mobility Partner to make the operational and financial management of all aspects of your organisations telecommunications assets, usage and expenditure easy, efficient and effective.</h3>
-                      <div class="media">
-                        <div class="avatar avatar-xs avatar-circle d-lg-none mr-2">
-                          <img class="avatar-img" src="./assets/img/100x100/img19.jpg" alt="Image Description">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4 column-divider-lg">
-                    <hr class="d-lg-none">
-
-                    <div class="pl-lg-5">
-                      <span class="h1 text-primary">50+</span>
-                      <p class="font-size-1">Of our customers are managed through a Telstra Mobility Partner</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Card Body -->
+      <div class="col-sm-6 col-lg-12 px-2 px-lg-3 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay="150">
+        <!-- Card -->
+        <a class="card text-center h-100 transition-3d-hover">
+          <div class="card-body">
+            <div class="mb-5">
+              <h3 style="padding-bottom:15px;color:rgb(0,154,215);text-align:left">Accountability</h3>
+              <ol style="text-align:left">
+                <li class="text-dark">Structured heirachy and online reporting allows overview of telecommunication costs and inventory from the whole organisation to each individual user;</li><br>
+                <li class="text-dark">Inventory and telecommunication costs are effectively audited each month;</li><br>
+                <li class="text-dark">End users and cost centre managers are made aware of their costs via online reporting and emailed reports directly to their inbox;</li>
+              </ol>
             </div>
           </div>
-        </div>
+        </a>
+        <!-- End Card -->
+      </div>
+
+      <div class="col-sm-6 col-lg-12 px-2 px-lg-3 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay="150">
+        <!-- Card -->
+        <a class="card text-center h-100 transition-3d-hover">
+          <div class="card-body">
+            <div class="mb-5">
+              <h3 style="padding-bottom:15px;color:rgb(0,154,215);text-align:left">Manageability</h3>
+              <ol style="text-align:left">
+                <li class="text-dark">Visibility, providing consolidated summaries for monitoring and planning purposes;</li><br>
+                <li class="text-dark">12 month trend graphs across a wide variety of cost points;</li><br>
+                <li class="text-dark">Targeted reporting allows management by exception;</li><br>
+                <li class="text-dark">Enabling redirection of staff productivity from time consuming operational bill handling and checking to strategic planning;</li>
+              </ol>
+            </div>
+          </div>
+        </a>
+        <!-- End Card -->
+      </div>
+
+      <div class="col-sm-6 col-lg-12 px-2 px-lg-3 mb-3 mb-lg-3" data-aos="fade-up" data-aos-delay="150">
+        <!-- Card -->
+        <a class="card text-center h-100 transition-3d-hover">
+          <div class="card-body">
+            <div class="mb-5">
+              <h3 style="padding-bottom:15px;color:rgb(0,154,215);text-align:left">Optimisation</h3>
+              <ol style="text-align:left">
+                <li class="text-dark">Reduces the expense of external consultants for auditing and review;</li><br>
+                <li class="text-dark">Providing alerts for inefficiently configured services and equipment;</li><br>
+                <li class="text-dark">Providing accurate benchmarks;
+                </li>
+              </ol>
+            </div>
+          </div>
+        </a>
+        <!-- End Card -->
       </div>
     </div>
-    <!-- End Channel Partners Section -->
+  </div>
+</div>
+  <!-- The 4 Major Sections -->
 
     <!--Begin Carousel-->
     <div class="top-content" style="padding:80px">
